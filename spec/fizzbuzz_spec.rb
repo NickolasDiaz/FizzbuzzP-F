@@ -27,7 +27,10 @@ describe 'fizzbuzz calculator' do
 	# Share your code by making Mr. Rush (thefonso) a collaborator on your github project
 	
 
-	it 'returns 2 from 2'
+	it 'returns 2 from 2' do
+	    @calculator.calculate(2).should == 2
+	end
+	
 	it 'returns fizz from 3'
 	it 'returns 4 from 4'
 	it 'returns buzz from 5'
