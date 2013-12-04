@@ -35,7 +35,9 @@ describe 'fizzbuzz calculator' do
 	    @calculator.calculate(3).should == 'fizz'
 	end
 	
-	it 'returns 4 from 4'
+	it 'returns 4 from 4' do
+        @calculator.calculate(4).should == 4
+	end
 	it 'returns buzz from 5'
 	it 'returns fizz from 6'
 	it 'returns 7 from 7'
