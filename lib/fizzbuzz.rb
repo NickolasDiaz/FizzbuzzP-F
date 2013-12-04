@@ -1,6 +1,7 @@
 class Calculator
-	def calculate
+	def calculate(num)
 	   if 
 		num
+	   end 
 	end
 end
