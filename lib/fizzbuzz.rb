@@ -1,6 +1,8 @@
 class Calculator
 	def calculate(num)
-	   if num % 3 == 0
+	   if num % 5 == 0
+	     'buzz'
+	   elsif num % 3 == 0
 	     'fizz'
 	   else
 		  num
